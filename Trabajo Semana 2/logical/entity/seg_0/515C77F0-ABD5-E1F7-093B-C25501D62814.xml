@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="515C77F0-ABD5-E1F7-093B-C25501D62814" name="EQUIPAJE">
+<createdBy>DELL Latitude</createdBy>
+<createdTime>2026-08-25 00:48:36 UTC</createdTime>
+<ownerDesignName>Trabajo Semana 2</ownerDesignName>
+<engineerTo>
+<item key="BFEE9373-77C0-76A0-98AD-6D4DF67C2891" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_equipaje" id="FE2D3E20-8A12-67F5-D104-A5BD52B90A99">
+<createdBy>DELL Latitude</createdBy>
+<createdTime>2026-08-25 00:48:46 UTC</createdTime>
+<ownerDesignName>Trabajo Semana 2</ownerDesignName>
+<engineerTo>
+<item key="BFEE9373-77C0-76A0-98AD-6D4DF67C2891" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="color" id="6DF11292-7847-5305-3D63-28004339E04B">
+<createdBy>DELL Latitude</createdBy>
+<createdTime>2026-08-25 00:49:19 UTC</createdTime>
+<ownerDesignName>Trabajo Semana 2</ownerDesignName>
+<engineerTo>
+<item key="BFEE9373-77C0-76A0-98AD-6D4DF67C2891" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="peso" id="583D74ED-9AB5-F44F-E936-3C9C76B0AA4F">
+<createdBy>DELL Latitude</createdBy>
+<createdTime>2026-08-25 00:49:36 UTC</createdTime>
+<ownerDesignName>Trabajo Semana 2</ownerDesignName>
+<engineerTo>
+<item key="BFEE9373-77C0-76A0-98AD-6D4DF67C2891" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_embarque" id="A398B92B-DFCE-5E7E-7A51-40630C6D39BF">
+<createdBy>DELL Latitude</createdBy>
+<createdTime>2026-08-25 00:49:49 UTC</createdTime>
+<ownerDesignName>Trabajo Semana 2</ownerDesignName>
+<engineerTo>
+<item key="BFEE9373-77C0-76A0-98AD-6D4DF67C2891" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fragil" id="CA900C05-6409-CB28-DBA0-B38B22316E15">
+<createdBy>DELL Latitude</createdBy>
+<createdTime>2026-08-25 00:50:03 UTC</createdTime>
+<ownerDesignName>Trabajo Semana 2</ownerDesignName>
+<engineerTo>
+<item key="BFEE9373-77C0-76A0-98AD-6D4DF67C2891" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="F2578688-E785-6B76-958F-F58D7B3859FE">
+<createdBy>DELL Latitude</createdBy>
+<createdTime>2026-08-25 00:50:31 UTC</createdTime>
+<ownerDesignName>Trabajo Semana 2</ownerDesignName>
+<engineerTo>
+<item key="BFEE9373-77C0-76A0-98AD-6D4DF67C2891" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<ownDataTypeParameters>2000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_pasaporte_1" id="B2A9B2F3-552B-D7B7-520B-CE25D1E13519">
+<createdBy>DELL Latitude</createdBy>
+<createdTime>2026-08-25 00:52:11 UTC</createdTime>
+<generatorID>D3F417FD-C34F-025A-7B69-C8A204860D88</generatorID>
+<ownerDesignName>Trabajo Semana 2</ownerDesignName>
+<engineerTo>
+<item key="BFEE9373-77C0-76A0-98AD-6D4DF67C2891" value="true"/>
+</engineerTo>
+<referedAttribute>CFBEA2FB-F723-8497-EFE6-FC6A60DBDE7F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EEFD5B73-795C-5F7B-0738-18F92E97B928" name="EQUIPAJE PK">
+<createdBy>DELL Latitude</createdBy>
+<createdTime>2026-08-25 00:49:18 UTC</createdTime>
+<ownerDesignName>Trabajo Semana 2</ownerDesignName>
+<engineerTo>
+<item key="BFEE9373-77C0-76A0-98AD-6D4DF67C2891" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FE2D3E20-8A12-67F5-D104-A5BD52B90A99</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

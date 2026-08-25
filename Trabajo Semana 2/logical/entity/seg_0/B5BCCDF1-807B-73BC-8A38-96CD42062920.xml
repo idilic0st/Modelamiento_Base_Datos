@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B5BCCDF1-807B-73BC-8A38-96CD42062920" name="EMPLEADO">
+<createdBy>DELL Latitude</createdBy>
+<createdTime>2026-08-17 21:03:55 UTC</createdTime>
+<ownerDesignName>Trabajo Semana 2</ownerDesignName>
+<engineerTo>
+<item key="BFEE9373-77C0-76A0-98AD-6D4DF67C2891" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rut" id="CD5C667F-42B7-6C24-3CC4-007C8A50562F">
+<createdBy>DELL Latitude</createdBy>
+<createdTime>2026-08-17 21:04:04 UTC</createdTime>
+<ownerDesignName>Trabajo Semana 2</ownerDesignName>
+<engineerTo>
+<item key="BFEE9373-77C0-76A0-98AD-6D4DF67C2891" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_completo" id="996B9953-6020-C2CE-D778-AA0B4AF81FEE">
+<createdBy>DELL Latitude</createdBy>
+<createdTime>2026-08-17 21:04:35 UTC</createdTime>
+<ownerDesignName>Trabajo Semana 2</ownerDesignName>
+<engineerTo>
+<item key="BFEE9373-77C0-76A0-98AD-6D4DF67C2891" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="6E044AAF-42D5-6D12-6B92-5C6C18C98174">
+<createdBy>DELL Latitude</createdBy>
+<createdTime>2026-08-17 21:05:00 UTC</createdTime>
+<ownerDesignName>Trabajo Semana 2</ownerDesignName>
+<engineerTo>
+<item key="BFEE9373-77C0-76A0-98AD-6D4DF67C2891" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sueldo_base" id="0040566C-76AF-0645-7761-02C6A7BEE7C6">
+<createdBy>DELL Latitude</createdBy>
+<createdTime>2026-08-17 21:05:46 UTC</createdTime>
+<ownerDesignName>Trabajo Semana 2</ownerDesignName>
+<engineerTo>
+<item key="BFEE9373-77C0-76A0-98AD-6D4DF67C2891" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_ingreso" id="E20066C7-A3E1-729C-9AE3-68F83C12BA13">
+<createdBy>DELL Latitude</createdBy>
+<createdTime>2026-08-17 21:06:43 UTC</createdTime>
+<ownerDesignName>Trabajo Semana 2</ownerDesignName>
+<engineerTo>
+<item key="BFEE9373-77C0-76A0-98AD-6D4DF67C2891" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genero" id="5A2B829A-4462-E5E9-C3FB-BB5A1C95A031">
+<createdBy>DELL Latitude</createdBy>
+<createdTime>2026-08-17 21:07:42 UTC</createdTime>
+<ownerDesignName>Trabajo Semana 2</ownerDesignName>
+<engineerTo>
+<item key="BFEE9373-77C0-76A0-98AD-6D4DF67C2891" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono_movil" id="9D0AF3F0-AEE1-5104-96FD-2EBF657EE4A3">
+<createdBy>DELL Latitude</createdBy>
+<createdTime>2026-08-17 21:09:02 UTC</createdTime>
+<ownerDesignName>Trabajo Semana 2</ownerDesignName>
+<engineerTo>
+<item key="BFEE9373-77C0-76A0-98AD-6D4DF67C2891" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono_contacto" id="22E52BB6-238E-CFEB-02A8-567EFD16D620">
+<createdBy>DELL Latitude</createdBy>
+<createdTime>2026-08-17 21:09:31 UTC</createdTime>
+<ownerDesignName>Trabajo Semana 2</ownerDesignName>
+<engineerTo>
+<item key="BFEE9373-77C0-76A0-98AD-6D4DF67C2891" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_pasaporte_1" id="D5BF5E35-C866-F4EE-9EF6-11124D230AA7">
+<createdBy>DELL Latitude</createdBy>
+<createdTime>2026-08-25 00:51:19 UTC</createdTime>
+<generatorID>D3F417FD-C34F-025A-7B69-C8A204860D88</generatorID>
+<ownerDesignName>Trabajo Semana 2</ownerDesignName>
+<engineerTo>
+<item key="BFEE9373-77C0-76A0-98AD-6D4DF67C2891" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>CFBEA2FB-F723-8497-EFE6-FC6A60DBDE7F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="32B1DAAD-3168-14E1-767C-5A47100EFB47" name="EMPLEADO PK">
+<createdBy>DELL Latitude</createdBy>
+<createdTime>2026-08-17 21:04:32 UTC</createdTime>
+<ownerDesignName>Trabajo Semana 2</ownerDesignName>
+<engineerTo>
+<item key="BFEE9373-77C0-76A0-98AD-6D4DF67C2891" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CD5C667F-42B7-6C24-3CC4-007C8A50562F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

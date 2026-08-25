@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="83009E09-E591-EB1A-5A6D-938D959F4426" name="PASAJERO">
+<createdBy>DELL Latitude</createdBy>
+<createdTime>2026-08-25 00:43:14 UTC</createdTime>
+<ownerDesignName>Trabajo Semana 2</ownerDesignName>
+<engineerTo>
+<item key="BFEE9373-77C0-76A0-98AD-6D4DF67C2891" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="num_pasaporte_1" id="CFBEA2FB-F723-8497-EFE6-FC6A60DBDE7F">
+<createdBy>DELL Latitude</createdBy>
+<createdTime>2026-08-25 00:43:27 UTC</createdTime>
+<ownerDesignName>Trabajo Semana 2</ownerDesignName>
+<engineerTo>
+<item key="BFEE9373-77C0-76A0-98AD-6D4DF67C2891" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_completo" id="09059AE1-6462-6CEF-A997-4E9434B27B7E">
+<createdBy>DELL Latitude</createdBy>
+<createdTime>2026-08-25 00:44:13 UTC</createdTime>
+<ownerDesignName>Trabajo Semana 2</ownerDesignName>
+<engineerTo>
+<item key="BFEE9373-77C0-76A0-98AD-6D4DF67C2891" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_nacimiento" id="EC4FEA2F-7932-24B2-6988-CA1AA08B91F1">
+<createdBy>DELL Latitude</createdBy>
+<createdTime>2026-08-25 00:44:41 UTC</createdTime>
+<ownerDesignName>Trabajo Semana 2</ownerDesignName>
+<engineerTo>
+<item key="BFEE9373-77C0-76A0-98AD-6D4DF67C2891" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nacionalidad" id="915DBF6E-B883-270D-449D-80A58E658EC2">
+<createdBy>DELL Latitude</createdBy>
+<createdTime>2026-08-25 00:44:53 UTC</createdTime>
+<ownerDesignName>Trabajo Semana 2</ownerDesignName>
+<engineerTo>
+<item key="BFEE9373-77C0-76A0-98AD-6D4DF67C2891" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="2BF8182E-6304-BC3F-7E94-4A82911AC2F9">
+<createdBy>DELL Latitude</createdBy>
+<createdTime>2026-08-25 00:44:56 UTC</createdTime>
+<ownerDesignName>Trabajo Semana 2</ownerDesignName>
+<engineerTo>
+<item key="BFEE9373-77C0-76A0-98AD-6D4DF67C2891" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="E171D097-8FA7-2173-1D80-4E6EAF1C9D00">
+<createdBy>DELL Latitude</createdBy>
+<createdTime>2026-08-25 00:45:29 UTC</createdTime>
+<ownerDesignName>Trabajo Semana 2</ownerDesignName>
+<engineerTo>
+<item key="BFEE9373-77C0-76A0-98AD-6D4DF67C2891" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D6870985-4D49-B07B-DC79-19ABB254F562" name="PASAJERO PK">
+<createdBy>DELL Latitude</createdBy>
+<createdTime>2026-08-25 00:43:43 UTC</createdTime>
+<ownerDesignName>Trabajo Semana 2</ownerDesignName>
+<engineerTo>
+<item key="BFEE9373-77C0-76A0-98AD-6D4DF67C2891" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CFBEA2FB-F723-8497-EFE6-FC6A60DBDE7F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

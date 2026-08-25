@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="relacion_pasajero_reserva" directorySegmentName="seg_0" id="AD8F5AB4-4156-4C09-3969-C20A51E90247">
+<createdBy>DELL Latitude</createdBy>
+<createdTime>2026-08-25 00:46:02 UTC</createdTime>
+<ownerDesignName>Trabajo Semana 2</ownerDesignName>
+<engineerTo>
+<item key="BFEE9373-77C0-76A0-98AD-6D4DF67C2891" value="true"/>
+</engineerTo>
+<sourcePk>D6870985-4D49-B07B-DC79-19ABB254F562</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>83009E09-E591-EB1A-5A6D-938D959F4426</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4273F85C-693A-E866-2368-BC2AB159FA1C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

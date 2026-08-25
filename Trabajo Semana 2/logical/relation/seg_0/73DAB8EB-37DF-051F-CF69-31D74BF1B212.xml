@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="relacion_empleado_vuelo" directorySegmentName="seg_0" id="73DAB8EB-37DF-051F-CF69-31D74BF1B212">
+<createdBy>DELL Latitude</createdBy>
+<createdTime>2026-08-25 01:59:20 UTC</createdTime>
+<ownerDesignName>Trabajo Semana 2</ownerDesignName>
+<engineerTo>
+<item key="BFEE9373-77C0-76A0-98AD-6D4DF67C2891" value="true"/>
+</engineerTo>
+<sourcePk>32B1DAAD-3168-14E1-767C-5A47100EFB47</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B5BCCDF1-807B-73BC-8A38-96CD42062920</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1D07F7EF-8777-CEF2-F288-CD3831DEA67C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

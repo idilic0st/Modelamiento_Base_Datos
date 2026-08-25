@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="relacion_equipaje_reserva" directorySegmentName="seg_0" id="D3F417FD-C34F-025A-7B69-C8A204860D88">
+<createdBy>DELL Latitude</createdBy>
+<createdTime>2026-08-25 00:51:19 UTC</createdTime>
+<ownerDesignName>Trabajo Semana 2</ownerDesignName>
+<engineerTo>
+<item key="BFEE9373-77C0-76A0-98AD-6D4DF67C2891" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>4273F85C-693A-E866-2368-BC2AB159FA1C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>515C77F0-ABD5-E1F7-093B-C25501D62814</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="relacion_avion_vuelo" directorySegmentName="seg_0" id="A2DE07A4-C8D0-312B-F569-1677930211CA">
+<createdBy>DELL Latitude</createdBy>
+<createdTime>2026-08-25 00:54:28 UTC</createdTime>
+<ownerDesignName>Trabajo Semana 2</ownerDesignName>
+<engineerTo>
+<item key="BFEE9373-77C0-76A0-98AD-6D4DF67C2891" value="true"/>
+</engineerTo>
+<sourcePk>36E2E8A2-8473-2C8E-F02B-A8C1CD931A73</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9FA5D3AC-C6F1-C0C1-628A-2D3B7C1444DB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1D07F7EF-8777-CEF2-F288-CD3831DEA67C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
