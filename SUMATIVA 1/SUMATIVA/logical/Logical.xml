@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="95386244-21DC-0D6B-126B-E119BB1FBCF1" mainViewID="0A28E1A9-AD1D-1ADF-1154-3B3FE5C05A16">
+<createdBy>davis</createdBy>
+<createdTime>2026-08-30 21:24:37 UTC</createdTime>
+<ownerDesignName>SUMATIVA</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="sucursal_contrato" directorySegmentName="seg_0" id="E1FA7C02-76F5-8A2B-CE4F-C6696DEE10A2">
+<createdBy>davis</createdBy>
+<createdTime>2026-08-30 21:53:31 UTC</createdTime>
+<ownerDesignName>SUMATIVA</ownerDesignName>
+<engineerTo>
+<item key="82560398-E48D-2451-624B-F26F4F67AAB5" value="true"/>
+</engineerTo>
+<sourcePk>0960DFD4-153F-A6EC-2F38-C55DFAEF8040</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1B57CB8F-E922-524B-9845-4598A1AC1A4D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6E7DEF95-6F2C-699C-0083-7B66CCE36A0E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

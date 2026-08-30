@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="cargo_practicante" directorySegmentName="seg_0" id="E6FC93EF-29A8-DE4D-BF71-28FC93F0AB0A">
+<createdBy>davis</createdBy>
+<createdTime>2026-08-30 21:58:38 UTC</createdTime>
+<ownerDesignName>SUMATIVA</ownerDesignName>
+<engineerTo>
+<item key="82560398-E48D-2451-624B-F26F4F67AAB5" value="true"/>
+</engineerTo>
+<sourcePk>D7C6E00E-05CB-99FB-9CD2-014E2487AD5F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>493C0E60-3EF1-11CE-62C0-C129608637DC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>05EAB784-13E6-9D81-0E7C-D2A2653F0FEE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
