@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SUMATIVA" id="97218BF5-0B61-DA39-0D9D-FD75F549E4BB" version="3.5">
+<createdBy>davis</createdBy>
+<createdTime>2026-08-30 21:24:37 UTC</createdTime>
+<ownerDesignName>SUMATIVA</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>97218BF5-0B61-DA39-0D9D-FD75F549E4BB</designId>
+</OSDM_Design>
