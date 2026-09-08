@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F6C95306-3B17-BC6B-1C9E-A5203256C788" name="POSTULACION IDIOMA">
+<createdBy>davis</createdBy>
+<createdTime>2026-09-08 00:24:58 UTC</createdTime>
+<ownerDesignName>TRABAJO SEMANA 4</ownerDesignName>
+<engineerTo>
+<item key="5B31BBCB-CE94-4CDA-11D4-7241D839D4ED" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nivel_dominio" id="3C9A5A07-0E0A-318A-5E11-316DD154E5B1">
+<createdBy>davis</createdBy>
+<createdTime>2026-09-08 00:25:11 UTC</createdTime>
+<ownerDesignName>TRABAJO SEMANA 4</ownerDesignName>
+<engineerTo>
+<item key="5B31BBCB-CE94-4CDA-11D4-7241D839D4ED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_idioma" id="93B99A74-9219-1989-15C8-1135269DC1F0">
+<createdBy>davis</createdBy>
+<createdTime>2026-09-08 01:34:24 UTC</createdTime>
+<generatorID>8C27F2BF-4F6C-6844-6E4F-C8D05BBCA34D</generatorID>
+<ownerDesignName>TRABAJO SEMANA 4</ownerDesignName>
+<engineerTo>
+<item key="5B31BBCB-CE94-4CDA-11D4-7241D839D4ED" value="true"/>
+</engineerTo>
+<referedAttribute>FA301627-FE0C-246F-6C52-C485F7919804</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_postulacion" id="321AAD7D-9848-9743-E16E-26C74A0AC89F">
+<createdBy>davis</createdBy>
+<createdTime>2026-09-08 02:18:10 UTC</createdTime>
+<generatorID>B29BC19A-0DD8-2E1A-3D00-EDE459C6DB29</generatorID>
+<ownerDesignName>TRABAJO SEMANA 4</ownerDesignName>
+<engineerTo>
+<item key="5B31BBCB-CE94-4CDA-11D4-7241D839D4ED" value="true"/>
+</engineerTo>
+<referedAttribute>957E0334-2C3C-BEC6-9CA7-93647B9DB67A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="27A73006-54E3-4D9B-A375-770396B5DEEC" name="POSTULACION IDIOMA PK">
+<createdBy>davis</createdBy>
+<createdTime>2026-09-08 01:35:58 UTC</createdTime>
+<ownerDesignName>TRABAJO SEMANA 4</ownerDesignName>
+<engineerTo>
+<item key="5B31BBCB-CE94-4CDA-11D4-7241D839D4ED" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>93B99A74-9219-1989-15C8-1135269DC1F0</attributeRef>
+<attributeRef>321AAD7D-9848-9743-E16E-26C74A0AC89F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

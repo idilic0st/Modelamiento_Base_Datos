@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Postulacion_postulaciondioma" directorySegmentName="seg_0" id="B29BC19A-0DD8-2E1A-3D00-EDE459C6DB29">
+<createdBy>davis</createdBy>
+<createdTime>2026-09-08 02:18:10 UTC</createdTime>
+<ownerDesignName>TRABAJO SEMANA 4</ownerDesignName>
+<engineerTo>
+<item key="5B31BBCB-CE94-4CDA-11D4-7241D839D4ED" value="true"/>
+</engineerTo>
+<sourcePk>412A007B-15A8-46C3-59BF-6EEE6059D871</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>487D8B91-F92F-D032-F8F3-1B94CB684A1B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F6C95306-3B17-BC6B-1C9E-A5203256C788</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

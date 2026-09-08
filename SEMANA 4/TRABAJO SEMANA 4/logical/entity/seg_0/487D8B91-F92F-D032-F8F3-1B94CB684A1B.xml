@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="487D8B91-F92F-D032-F8F3-1B94CB684A1B" name="POSTULACION">
+<createdBy>davis</createdBy>
+<createdTime>2026-09-08 00:18:54 UTC</createdTime>
+<ownerDesignName>TRABAJO SEMANA 4</ownerDesignName>
+<engineerTo>
+<item key="5B31BBCB-CE94-4CDA-11D4-7241D839D4ED" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_postulacion" id="957E0334-2C3C-BEC6-9CA7-93647B9DB67A">
+<createdBy>davis</createdBy>
+<createdTime>2026-09-08 01:28:12 UTC</createdTime>
+<ownerDesignName>TRABAJO SEMANA 4</ownerDesignName>
+<engineerTo>
+<item key="5B31BBCB-CE94-4CDA-11D4-7241D839D4ED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_postulacion" id="8FD32DE6-F168-0539-9096-FAC48DBF8AAA">
+<createdBy>davis</createdBy>
+<createdTime>2026-09-08 00:19:16 UTC</createdTime>
+<ownerDesignName>TRABAJO SEMANA 4</ownerDesignName>
+<engineerTo>
+<item key="5B31BBCB-CE94-4CDA-11D4-7241D839D4ED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_empresa" id="3903D3FB-0807-E0E0-A8E5-5D167041E05D">
+<createdBy>davis</createdBy>
+<createdTime>2026-09-08 01:03:19 UTC</createdTime>
+<generatorID>20524817-701E-3808-08E7-A6828FD2E5C4</generatorID>
+<ownerDesignName>TRABAJO SEMANA 4</ownerDesignName>
+<engineerTo>
+<item key="5B31BBCB-CE94-4CDA-11D4-7241D839D4ED" value="true"/>
+</engineerTo>
+<referedAttribute>46EFF845-48F6-D6E9-FD08-B82045432BFA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="folio_postulante" id="35B0AAFE-9307-58BD-6D4B-08395D5A3533">
+<createdBy>davis</createdBy>
+<createdTime>2026-09-08 01:54:56 UTC</createdTime>
+<generatorID>EE51E0A1-ECCF-4904-A25B-7701CDC16B62</generatorID>
+<ownerDesignName>TRABAJO SEMANA 4</ownerDesignName>
+<engineerTo>
+<item key="5B31BBCB-CE94-4CDA-11D4-7241D839D4ED" value="true"/>
+</engineerTo>
+<referedAttribute>406544F3-A874-2B53-652A-35EF9EBF08A1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="412A007B-15A8-46C3-59BF-6EEE6059D871" name="POSTULACION PK">
+<createdBy>davis</createdBy>
+<createdTime>2026-09-08 00:19:16 UTC</createdTime>
+<ownerDesignName>TRABAJO SEMANA 4</ownerDesignName>
+<engineerTo>
+<item key="5B31BBCB-CE94-4CDA-11D4-7241D839D4ED" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>957E0334-2C3C-BEC6-9CA7-93647B9DB67A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

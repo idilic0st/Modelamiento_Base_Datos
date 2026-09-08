@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Postulante_tituloprofesional" directorySegmentName="seg_0" id="7F228D55-9337-3037-3373-4C33D64644C3">
+<createdBy>davis</createdBy>
+<createdTime>2026-09-08 01:04:30 UTC</createdTime>
+<ownerDesignName>TRABAJO SEMANA 4</ownerDesignName>
+<engineerTo>
+<item key="5B31BBCB-CE94-4CDA-11D4-7241D839D4ED" value="true"/>
+</engineerTo>
+<sourcePk>D682DA37-8D4B-1C45-5C13-10400989AEC9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3805C89A-FF9A-CF12-98E2-D9B298857A62</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>074F11CF-C3F6-25E2-1D71-008310B9729E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

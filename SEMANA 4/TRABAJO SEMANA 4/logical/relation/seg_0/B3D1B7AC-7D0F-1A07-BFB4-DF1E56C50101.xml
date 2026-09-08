@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pais_postulante" directorySegmentName="seg_0" id="B3D1B7AC-7D0F-1A07-BFB4-DF1E56C50101">
+<createdBy>davis</createdBy>
+<createdTime>2026-09-08 01:13:12 UTC</createdTime>
+<ownerDesignName>TRABAJO SEMANA 4</ownerDesignName>
+<engineerTo>
+<item key="5B31BBCB-CE94-4CDA-11D4-7241D839D4ED" value="true"/>
+</engineerTo>
+<sourcePk>A593B9FE-F6FE-DD0C-0AB8-4160C73FA5FA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D785F75C-892F-031C-DBE4-FC34EE510DF3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3805C89A-FF9A-CF12-98E2-D9B298857A62</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
